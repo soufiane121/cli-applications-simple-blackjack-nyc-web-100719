@@ -39,7 +39,7 @@ def hit?(arg)
   ipt = get_user_input
   if ipt =="h"
     deal_card * 2
-  else 
+  elsif ipt == "s"
     arg 
   end
   
