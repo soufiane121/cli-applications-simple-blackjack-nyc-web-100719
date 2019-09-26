@@ -34,13 +34,16 @@ total
 end
 
 def hit?(arg)
+  total = 0
    print prompt_user
   ipt = get_user_input
   if ipt =="h"
-    deal_card
+    2.times 
+    total+= deal_card
   else 
     arg 
   end
+  total
 end
 
 def invalid_command
