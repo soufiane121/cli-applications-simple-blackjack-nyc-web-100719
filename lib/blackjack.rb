@@ -58,5 +58,6 @@ end
 
 def runner
   welcome
+  initial_round
 end
     
