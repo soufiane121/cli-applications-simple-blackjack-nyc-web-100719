@@ -41,8 +41,7 @@ def hit?(arg)
   elsif ipt == "s"
   arg
   else
-    puts prompt_user
-    puts invalid_command
+invalid_command
   end
   
 end
