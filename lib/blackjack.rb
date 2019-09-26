@@ -41,6 +41,8 @@ def hit?(arg)
     deal_card * 2
   elsif ipt == "s"
     arg 
+  else
+    puts invalid_command
   end
   
 end
