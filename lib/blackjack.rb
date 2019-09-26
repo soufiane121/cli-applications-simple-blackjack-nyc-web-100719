@@ -38,7 +38,7 @@ def hit?(arg)
    print prompt_user
   ipt = get_user_input
   if ipt =="h"
-    deal_card * 2
+    arg+= deal_card 
   elsif ipt == "s"
   arg
   else
