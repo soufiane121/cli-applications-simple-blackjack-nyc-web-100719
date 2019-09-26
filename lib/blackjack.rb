@@ -63,5 +63,6 @@ def runner
   arg = hit?(arg)
   display_card_total(arg)
 end
+end_game
 end
     
