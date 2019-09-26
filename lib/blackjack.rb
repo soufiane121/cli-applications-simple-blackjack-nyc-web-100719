@@ -34,7 +34,6 @@ total
 end
 
 def hit?(arg)
-  total = 0
    print prompt_user
   ipt = get_user_input
   if ipt =="h"
@@ -43,7 +42,7 @@ def hit?(arg)
   arg
   else
     puts invalid_command
-    ipt = get_user_input
+    prompt_user
   end
   
 end
