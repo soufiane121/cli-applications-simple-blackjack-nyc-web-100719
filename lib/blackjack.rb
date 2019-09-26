@@ -36,6 +36,11 @@ end
 def hit?(arg)
    print prompt_user
   ipt = get_user_input
+  if ipt =="h"
+    deal_card
+  else 
+    arg 
+  end
 end
 
 def invalid_command
