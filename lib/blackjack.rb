@@ -40,7 +40,7 @@ def hit?(arg)
   if ipt =="h"
     deal_card * 2
   elsif ipt == "s"
-    arg 
+   puts display_card_total
   else
     puts invalid_command
   end
