@@ -62,7 +62,8 @@ def runner
   until arg > 21
   arg = hit?(arg)
   display_card_total(arg)
-end
+else
 end_game
+end
 end
     
