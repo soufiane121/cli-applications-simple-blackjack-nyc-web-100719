@@ -38,9 +38,7 @@ def hit?(arg)
    print prompt_user
   ipt = get_user_input
   if ipt =="h"
-    2.times 
-    total+= deal_card
-  end
+    deal_card * 2
   else 
     arg 
   end
