@@ -42,7 +42,7 @@ def hit?(arg)
   arg
   else
     puts invalid_command
-    prompt_user
+    puts prompt_user
   end
   
 end
