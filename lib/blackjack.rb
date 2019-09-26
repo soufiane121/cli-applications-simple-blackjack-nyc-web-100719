@@ -40,6 +40,7 @@ def hit?(arg)
   if ipt =="h"
     2.times 
     total+= deal_card
+  end
   else 
     arg 
   end
