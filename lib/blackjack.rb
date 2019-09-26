@@ -43,7 +43,7 @@ def hit?(arg)
   else 
     arg 
   end
-  total
+  
 end
 
 def invalid_command
