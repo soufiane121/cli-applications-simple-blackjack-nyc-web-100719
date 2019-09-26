@@ -43,6 +43,7 @@ def hit?(arg)
   arg
   else
     puts invalid_command
+    ipt = get_user_input
   end
   
 end
