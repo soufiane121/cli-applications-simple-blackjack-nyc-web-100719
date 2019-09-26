@@ -42,7 +42,7 @@ def hit?(arg)
   elsif ipt == "s"
    puts display_card_total
   else
-    puts invalid_command
+    puts invalid_command(arg)
   end
   
 end
